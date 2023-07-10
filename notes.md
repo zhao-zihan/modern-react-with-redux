@@ -14,7 +14,7 @@
    
    ```
 
-2.  When passing props, use double quotes to wrap Strings and curly braces to wrap Numbers, Arrays, Objects and Variables.
+2. When passing props, use double quotes to wrap Strings and curly braces to wrap Numbers, Arrays, Objects and Variables.
 
    ```react
    function App() {
@@ -32,7 +32,7 @@
    - class is written as className
    - in-line styles are provided as objects, if the style name contains any dashes, remove them and capitalize the next word
 
-4.  Export/Import
+4. Export/Import
 
    ```react
    function App() {
@@ -64,3 +64,21 @@
    ```
 
 5. Images that are smaller than 9.7kb will be included in-line instead of be treated as a sperate file
+
+6. Sibling components in React cannot directly communicate without the help from a third party library
+
+7. If you wrap an input element inside a form element, whenever you enter the enter key, it will submit the result and refresh the page, but don't forget to prevent the default behavior of onSubmit event of the form, because it will automatically collect form values and submit requests to a different urls
+
+   ```react
+   <form>
+     <input></input>
+   </form>
+   ```
+
+8. Common error: 
+
+   > A component is changing an uncontrolled input to be controlled.
+
+   happens when you update code inside the browser without refreshing the page
+
+9. Using index as list keys in React is a fallback, you will get bugs since each time when you change the original order of the list, the indexes change as well, so you cannot guarantee the uniqueness of the keys
