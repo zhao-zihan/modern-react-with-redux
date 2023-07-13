@@ -82,3 +82,19 @@
    happens when you update code inside the browser without refreshing the page
 
 9. Using index as list keys in React is a fallback, you will get bugs since each time when you change the original order of the list, the indexes change as well, so you cannot guarantee the uniqueness of the keys
+
+10. When you update state like an array state, if you modify the existing array instead of making a copy of it, React is "smart" enough to detect that you are manipulating the same array based on its reference thus no state update is triggered.
+
+11. slice cheatsheet
+
+    ![image-20230710213459460](notes.images/image-20230710213459460.png)
+
+12. Add element at the middle of an array
+
+    ![image-20230710213933285](notes.images/image-20230710213933285.png)
+
+13. Modify an element based on a property
+
+    ![image-20230710214944317](notes.images/image-20230710214944317.png)
+
+    
