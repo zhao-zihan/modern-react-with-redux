@@ -98,3 +98,17 @@
     ![image-20230710214944317](notes.images/image-20230710214944317.png)
 
     
+
+14. Adding properties to an object
+
+    ![image-20230716170000497](notes.images/image-20230716170000497.png)
+
+15. Removing properties from an object
+
+    ![image-20230716170053081](notes.images/image-20230716170053081.png)
+
+16. When does the callback function get called when useEffect is used?
+
+    ![image-20230716175752677](notes.images/image-20230716175752677.png)
+
+    
