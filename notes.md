@@ -39,10 +39,10 @@
      return <h1>Hi</h1>
    }
    
-   export default App
+   export default App;
    
-   const message1 = 'hi'
-   export { message }
+   const message1 = 'hi';
+   export { message };
    
    // or
    
@@ -50,15 +50,15 @@
      return <h1>Hello</h1>
    }
    
-   export const message2 = 'hello'
+   export const message2 = 'hello';
    ```
 
    ```react
-   import MyApp from './App'
+   import MyApp from './App';
    
    // default exports can be renamed in the importing file
    
-   import App, {message} from './App'
+   import App, {message} from './App';
    
    // named exports can't be renamed
    ```
@@ -111,4 +111,31 @@
 
     ![image-20230716175752677](notes.images/image-20230716175752677.png)
 
+17. context
+
+    ![image-20230717213449139](notes.images/image-20230717213449139.png)
+
+    ![image-20230717213509840](notes.images/image-20230717213509840.png)
+
+    ![image-20230717213549749](notes.images/image-20230717213549749.png)
+
+19. ```react
+    import { createContext } from 'react';
     
+    const BooksContext = createContext();
+    
+    export default BooksContext;
+    
+    <BooksContext.Provider value={5}>
+      <App /> // now App and its children will get access to the value 5
+    </BooksContext.Provider>
+    ```
+
+20. Application State vs Component State
+
+    ![image-20230717215333408](notes.images/image-20230717215333408.png)
+
+21. useEffect
+
+    ![image-20230718213832933](notes.images/image-20230718213832933.png)
+
