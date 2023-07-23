@@ -139,3 +139,49 @@
 
     ![image-20230718213832933](notes.images/image-20230718213832933.png)
 
+22. How to start a React project without using creat-react-app
+
+    ```react
+    // index.js
+    import React from 'react';
+    import ReactDOM from 'react-dom/client';
+    import App from './App';
+    
+    const el = document.getElementById('root');
+    const root = ReactDOM.createRoot(el);
+    
+    root.render(<App />);
+    ```
+
+    ```react
+    // App.jsx
+    function App() {
+      return <div>App</div>
+    }
+    
+    export default App;
+    ```
+
+23. If you put any thing in between your custom component tags, that thing will be passed down as the children prop to the child component, it could be text or even another component
+
+    ![image-20230722142751576](notes.images/image-20230722142751576.png)
+
+24. Validate props using 'prop-types'
+
+    ![image-20230722143645736](notes.images/image-20230722143645736.png)
+
+25. Build className with classnames, you can use curly braces for conditional selection, later property will overwrite previous ones
+
+    ![image-20230722152529217](notes.images/image-20230722152529217.png)
+
+26. Using dot spreader to pass eventListeners
+
+    ![image-20230722154220930](notes.images/image-20230722154220930.png)
+
+    ![image-20230722154155151](notes.images/image-20230722154155151.png)
+
+27. rest object can also be used for passing classnames
+
+    ![image-20230722214312970](notes.images/image-20230722214312970.png)
+
+    
