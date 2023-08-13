@@ -184,4 +184,60 @@
 
     ![image-20230722214312970](notes.images/image-20230722214312970.png)
 
+28. Try hybrid way to organize files
+
+    ![image-20230723133941980](notes.images/image-20230723133941980.png)
+
+29. This one I already know
+
+    ![image-20230723135253788](notes.images/image-20230723135253788.png)
+
+30. Try react icons: https://react-icons.github.io/react-icons/
+
+31. You can also update state using function version of setter function, the currentExpandedIndex works the same as 'e', using function version can avoid using stale state as reference
+
+    ![image-20230723160813823](notes.images/image-20230723160813823.png)
+
+32. how to use useRef()
+
+    ```react
+    import { useRef } from 'react';
     
+    function Dropdown() {
+      const divEl = useRef() // this will create a referece, it's an object contains a current property
+      
+      return (
+      	<div ref={divEl}>Hi</div>
+      )
+    }
+    ```
+
+33. useRef() continued:
+
+    ![image-20230812162309486](notes.images/image-20230812162309486.png)
+
+    ![image-20230812162644028](notes.images/image-20230812162644028.png)
+
+34. changing page, the basic way
+
+    ![image-20230812163354157](notes.images/image-20230812163354157.png)
+
+35. createContext
+
+    ![image-20230812164004502](notes.images/image-20230812164004502.png)
+
+    ![image-20230812164032381](notes.images/image-20230812164032381.png)
+
+37. popstate event
+
+    ![image-20230812165148127](notes.images/image-20230812165148127.png)
+
+38. added with pushState doesn't cause full refresh when click on the back and forward button of the bowser
+
+    ![image-20230812165644297](notes.images/image-20230812165644297.png)
+
+39. createPortal, we use this feature because inset-0 only works when there is no positioned parent element
+
+    ![image-20230812205312759](notes.images/image-20230812205312759.png)
+
+40. 
