@@ -240,4 +240,16 @@
 
     ![image-20230812205312759](notes.images/image-20230812205312759.png)
 
-40. 
+40. sort number, string, object in JS
+
+    ![image-20230813191615899](notes.images/image-20230813191615899-1979376.png)
+
+    ![image-20230813191636237](notes.images/image-20230813191636237.png)
+
+    ![image-20230813193501027](notes.images/image-20230813193501027.png)
+
+41. you can use react Fragment component to simply add key prop to dynamically generated components
+
+    ![image-20230813193641479](notes.images/image-20230813193641479.png)
+
+    
